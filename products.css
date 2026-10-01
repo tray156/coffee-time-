@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: Lora, -apple-system,system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue , Arial,  sans-serif,Apple Color Emoji ,Segoe UI Emoji,Segoe UI Symbol , Noto Color Emoji ;
+    font-size: 1rem;
+    font-weight: 400;
+    color:#6d3c12;
+    text-align: left;
+    background-image: url(../../Downloads/coffee-3392168.jpg) ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+h1{
+    font-size: 5rem;
+    color: #b1720b;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    font-family:"Raleway", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue , Arial,  sans-serif,"Apple Color Emoji" ,Segoe UI Emoji,Segoe UI Symbol , Noto Color Emoji ;
+    text-align: center;
+    font-weight:500 ;
+    line-height:4rem;
+}
+nav{
+    background-color:rgba(60, 17, 3, 0.9) ;
+    font-family:"Raleway", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue , Arial,  sans-serif,"Apple Color Emoji" ,Segoe UI Emoji,Segoe UI Symbol , Noto Color Emoji ;
+    padding-top:4rem ;
+    padding-bottom: 1.5rem;
+    margin-top: -15rem;
+}
+a{
+    text-decoration: none;
+    color: #d3cbc0;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+a:hover{
+    color: #e49d38;
+}
+a{
+    text-decoration: none;
+    color: #d3cbc0;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+
+div{
+    width:75% ;
+    background-color: #f6e1c5be;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+    border-radius:0.4rem ;
+    margin-top: -30px;
+    box-sizing:border-box ;
+}
+
+.coffee-container {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+.coffee-item {
+    text-align: center;
+}
+img {
+    width: 200px; 
+    border-radius: 10px; /
+}
+.coffee-container {
+    display: flex; /* Place les éléments en ligne */
+    gap: 20px; /* Espace entre les éléments */
+    justify-content: center; /* Centre les éléments horizontalement */
+    margin-top: 20px;
+}
+.coffee-item {
+    text-align: center;
+    border: 1px solid #ddd; /* Bordure légère autour de chaque élément */
+    padding: 10px;
+    border-radius: 10px;
+}
+img {
+    width: 200px; /* Ajuste la taille de l'image */
+    border-radius: 10px; /* Coins arrondis pour un meilleur rendu */
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Couleur verte */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #45a049;
+  }
+.dropdown:hover .dropdown-content {
+    opacity: 1; /* Affiche le menu */
+    visibility: visible; /* Rend le menu cliquable */
+}
+
+.coin-droit {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 18px;
+    color: #d9a74a; /* couleur café */
+    font-weight: bold;
+}
+.add-to-cart {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #45a049;
+  }
+  
+  
+  
+
+  
+
+
+
+

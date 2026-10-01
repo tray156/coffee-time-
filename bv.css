@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    font-family: Lora, -apple-system,system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue , Arial,  sans-serif,Apple Color Emoji ,Segoe UI Emoji,Segoe UI Symbol , Noto Color Emoji ;
+    font-size: 1rem;
+    font-weight: 400;
+    color:#6d3c12;
+    text-align: left;
+    background-image: url(../../Downloads/coffee-3392168.jpg) ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+h1{
+    font-size: 5rem;
+    color: #b1720b;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+
+    text-transform: uppercase;
+    font-family:"Raleway", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue , Arial,  sans-serif,"Apple Color Emoji" ,Segoe UI Emoji,Segoe UI Symbol , Noto Color Emoji ;
+    
+    font-weight:500 ;
+    line-height:4rem;
+}
+nav{
+    background-color:rgba(60, 17, 3, 0.9) ;
+    font-family:"Raleway", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue , Arial,  sans-serif,"Apple Color Emoji" ,Segoe UI Emoji,Segoe UI Symbol , Noto Color Emoji ;
+    padding-top:4rem ;
+    padding-bottom: 1.5rem;
+    margin-top: -15rem;
+}
+a{
+    text-decoration: none;
+    color: #d3cbc0;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+a:hover{
+    color: #e49d38;
+}
+section{
+    margin-top: 5rem;
+    margin-bottom:5rem ;
+
+}
+
+img{
+    width: 75%;
+    border-radius:0.4rem ;
+
+}
+div{
+    width:75% ;
+    background-color: #f6e1c5be;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+    border-radius:0.4rem ;
+    margin-top: 25px;
+    box-sizing:border-box ;
+}
+h2{
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue , Arial,  sans-serif,"Apple Color Emoji" ,Segoe UI Emoji,Segoe UI Symbol , Noto Color Emoji ;
+    font-weight:800 ;
+    line-height: 1.2;
+    font-size:1rem ;
+
+}
+#upper{
+    font-size:1.5rem ;
+    font-weight:800 ;
+
+}
+#lower{
+    font-size:3rem ;
+    font-weight:100 ;
+    line-height:4rem ;
+
+}
+.add-to-cart {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #45a049;
+  }
+  .add-to-cart {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #45a049;
+  }
+  .our {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .our:hover {
+    background-color: #45a049;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  .products, .cart {
+    max-width: 400px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .product, .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .add-btn {
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+  }
+
+  .add-btn:hover {
+    background-color: #218838;
+  }
+
+  .remove-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+
+  .remove-btn:hover {
+    background-color: #c82333;
+  }
+
+  .cart-total {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+   .order-btn {
+      background-color: #218838;
+      color: white;
+      margin-top: 15px;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px;
+    }
+
+    .order-btn:hover {
+      background-color:# ;
+    }
+  
+  
+
+

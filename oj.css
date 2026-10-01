@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: Lora, -apple-system,system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue , Arial,  sans-serif,Apple Color Emoji ,Segoe UI Emoji,Segoe UI Symbol , Noto Color Emoji ;
+    font-size: 1rem;
+    font-weight: 400;
+    color:#6d3c12;
+    text-align: center;
+    background-image: url(../../Downloads/coffee-3392168.jpg) ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+  
+  h1 {
+    text-align: center;
+    background-color: #6f4e37;
+    color: white;
+    padding: 25px 0;
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  .products, .cart {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  h2 {
+    color: #6f4e37;
+    margin-bottom: 20px;
+  }
+  
+  .product, .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .product:last-child, .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .add-btn, .remove-btn, .order-btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-btn {
+    background-color: #a97449;
+    color: white;
+  }
+  
+  .add-btn:hover {
+    background-color: #8c5d34;
+  }
+  
+  .remove-btn {
+    background-color: #d64545;
+    color: white;
+  }
+  
+  .remove-btn:hover {
+    background-color: #b63c3c;
+  }
+  
+  .order-btn {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #6f4e37;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .order-btn:hover {
+    background-color: #563c2c;
+  }
+  
+  .cart-total {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #3e3e3e;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .product, .cart-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .add-btn, .remove-btn {
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+  a{
+    text-decoration:;
+    color: #d3cbc0;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 1000;
+    align-content: end;
+}
+a:hover{
+    color: #e49d38;
+}
